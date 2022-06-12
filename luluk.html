@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <title>Luluk</title>
+  <style>
+    body {
+      /* -webkit-print-color-adjust: exec !important; */
+      color-adjust: exact !important;
+    }
+    @media print{
+      #hide{
+        display: none;
+      }
+      @page {
+        margin: 0;
+      }
+      body {
+        margin: 1.6cm;
+      }
+    }
+    .gray-200{
+      background-color: #e9ecef;
+    }
+    .gray-300{
+      background-color: #dee2e6;
+    }
+    .gray-600{
+      background-color: #6c757d;
+    }
+    .gray-900{
+      background-color: #212529;
+    }
+    .blue-500{
+      background-color: #0d6efd;
+    }
+    .text-gray-600{
+      color: #6c757d;
+    }
+    .text-gray-900{
+      color: #212529;
+    }
+    .hr-custom{
+      width: 70%;
+      height: 2px;
+      background-color: #000000;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button onclick="cetak()" id='hide'>Click Me</button>
+    <div class="row">
+      <div class="col-5 gray-200 p-5">
+        <img src="assets/profile/ll.jpeg" class="img-thumbnail rounded-circle mb-5" alt="Responsive image" >
+
+        <div class="d-flex flex-column justify-content-center align-items-center card-name">
+          <div class="row mb-5">
+            <div class="col h1 text-center font-weight-bold">
+              LULUK AMBARWATI
+            </div>
+          </div>
+          <!-- <div class="hr-custom mb-5"> </div> -->
+
+          <!-- <div class="row">
+            <div class="col text-center font-weight-bold">
+              PERSONAL INFORMATION
+            </div>
+          </div>
+          <div class="hr-custom mb-3"> </div>
+
+          <div class="w-100 mb-5">
+            <div class="mt-2">
+              <div class="d-flex align-items-center pl-5">
+                <img src="./assets/circle.svg" alt="location" style="width: 10px; margin-right: 10px;">
+                <div class="text-dark">Ms. Office</div>
+              </div>
+            </div>
+            <div class="mt-2">
+              <div class="d-flex align-items-center pl-5">
+                <img src="./assets/circle.svg" alt="location" style="width: 10px; margin-right: 10px;">
+                <div class="text-dark">Use Of Social Media</div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="row mb-2">
+            <div class="col text-center font-weight-bold">
+              CONTACT
+            </div>
+          </div>
+          <div class="hr-custom mb-5"> </div>
+
+          <div class="mb-5">
+            <div class="pl-4 mb-3">
+              <div class="d-flex align-items-center pl-3">
+                <img src="./assets/location.svg" alt="location" style="width: 30px; margin-right: 10px;">
+                <div class="text-dark">West Jakarta</div>
+              </div>
+            </div>
+  
+            <div class="pl-4 mb-3">
+              <div class="d-flex align-items-center pl-3">
+                <img src="./assets/gmail.svg" alt="location" style="width: 30px; margin-right: 10px;">
+                <div class="text-dark">lulukambarwati260@gmail.com</div>
+              </div>
+            </div>
+  
+            <div class="pl-4 mb-3">
+              <div class="d-flex align-items-center pl-3">
+                <img src="./assets/phone.svg" alt="location" style="width: 30px; margin-right: 10px;">
+                <div class="text-dark">081389432354</div>
+              </div>
+            </div>
+  
+            <div class="pl-4 mb-3">
+              <div class="d-flex align-items-center pl-3">
+                <img src="./assets/linkedin.svg" alt="location" style="width: 30px; margin-right: 10px;">
+                <div class="text-dark">www.linkedin.com/in/luluk-ambarwati-
+                  06201b1b2</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-7 p-5">
+        <div class="row">
+          <div class="col text-center font-weight-bold">
+            PROFILE
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="hr-custom mb-3"> </div>
+        </div>
+        <div class="mb-5 pl-5">
+          I'm Luluk Ambarwati, currently studying of English language education at Esa Unggul University semester 2. I have to work experience as shopkeeper at Bursa Listrik with achievement 80% serve the customer. I have an interest in a career as an administrative staff or customer service and have the ability to operate Microsoft Office.
+        </div>
+
+        <div class="row">
+          <div class="col text-center font-weight-bold">
+            WORK EXPERIENCE
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="hr-custom mb-3"> </div>
+        </div>
+        <div class="mb-5 pl-5">
+          <div class="pl-3 mb-4">
+            <div class="d-flex">
+              <div class="font-weight-bold" style="width: 60%;">
+                Bursa Listrik
+              </div>
+              <div class="text-gray-900 font-sm">
+                September 2020 - September 2021
+              </div>
+            </div>
+            <div class="text-gray-600 mb-2 ml-4">
+              Shopkeeper
+            </div>
+            <ul>
+              <li>
+                Serve and provide information on a product to customers.
+              </li>
+              <li>
+                Make sales notes
+              </li>
+              <li>
+                Checking stock on items in the store
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col text-center font-weight-bold">
+            SKILS
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="hr-custom mb-3"> </div>
+        </div>
+        <div class="mb-5 pl-5">
+          <div class="mt-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/circle.svg" alt="location" style="width: 10px; margin-right: 10px;">
+              <div class="text-dark">Ms. Office</div>
+            </div>
+          </div>
+          <div class="mt-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/circle.svg" alt="location" style="width: 10px; margin-right: 10px;">
+              <div class="text-dark">Use Of Social Media</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col text-center font-weight-bold">
+            EDUCATION
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="hr-custom mb-3"> </div>
+        </div>
+        <div class="mb-5 pl-5">
+
+          <div class="d-flex mb-3">
+            <div class="font-weight-bold" style="width: 60%;">
+              Esa Unggul University
+            </div>
+            <div class="text-gray-900 font-sm">
+              2021 - Now
+            </div>
+          </div>
+
+          <div class="d-flex mb-3">
+            <div class="font-weight-bold" style="width: 60%;">
+              Senior High School
+            </div>
+            <div class="text-gray-900 font-sm">
+              2016 - 2019
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col text-center font-weight-bold">
+            LANGUAGE
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="hr-custom mb-3"> </div>
+        </div>
+        <div class="mb-5 pl-5">
+          <div class="mt-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/circle.svg" alt="location" style="width: 10px; margin-right: 10px;">
+              <div class="text-dark">Indonesia</div>
+            </div>
+          </div>
+          <div class="mt-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/circle.svg" alt="location" style="width: 10px; margin-right: 10px;">
+              <div class="text-dark">English</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <script>
+    function cetak(){
+      window.print()
+    }
+  </script>
+</body>
+</html>
